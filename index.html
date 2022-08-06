@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    <%- title %>
+    Boostrap Index
   </title>
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -31,7 +31,7 @@
         </span>Question</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link fw-bold d-flex align-items-center ps-4 py-0 <%= current === 'index' && 'active' %>" href="#" ><span class="material-icons pe-3">
+        <a class="nav-link fw-bold d-flex align-items-center ps-4 py-0 active" href="#" ><span class="material-icons pe-3">
             assignment
           </span>Assignment</a>
       </li>
@@ -41,7 +41,7 @@
           </span>Course</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link fw-bold d-flex align-items-center ps-4 py-0 <%= current === 'admin' && 'active' %>" href="#"><span class="material-icons pe-3">
+        <a class="nav-link fw-bold d-flex align-items-center ps-4 py-0 false" href="#"><span class="material-icons pe-3">
             supervisor_account
           </span>Admin</a>
       </li>
@@ -53,7 +53,8 @@
     </ul>
   </nav>
 
-  <%- contents %>
+  
+
 
 
 
