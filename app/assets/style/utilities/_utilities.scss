@@ -1,0 +1,65 @@
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
+.pt-5 {
+  padding-top: 2rem !important;
+}
+
+.pt-6 {
+  padding-top: 2.75rem !important;
+}
+
+.ps-5 {
+  padding-left: 2rem !important;
+}
+
+.pe-5 {
+  padding-right: 2rem !important;
+}
+
+.me-5{
+  margin-right: 2rem;
+}
+
+.px-5 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.pe-50 {
+  padding-right: 3.125rem !important;
+}
+
+.py-12 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.btn-hover:hover,
+.link-hover:hover {
+  color: $success;
+}
+
+.material-icons {
+  color: $gray-900;
+
+  &:hover {
+    color: $success;
+  }
+}
+
+.list-group-item.active {
+  color: black;
+  background-color: $gray-100;
+  border: 1px solid $gray-400;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+}
