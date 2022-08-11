@@ -10,8 +10,16 @@
   padding-top: 2rem !important;
 }
 
-.pt-6 {
+.pt-44 {
   padding-top: 2.75rem !important;
+}
+
+.pt-6 {
+  padding-top: 3rem !important;
+}
+
+.pb-5{
+  padding-bottom: 2rem !important;
 }
 
 .ps-5 {
@@ -20,10 +28,6 @@
 
 .pe-5 {
   padding-right: 2rem !important;
-}
-
-.me-5{
-  margin-right: 2rem;
 }
 
 .px-5 {
@@ -40,12 +44,37 @@
   padding-bottom: 0.75rem !important;
 }
 
+
+.me-5 {
+  margin-right: 2rem !important;
+}
+
+.me-6 {
+  margin-right: 3rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 0.75rem !important;
+}
+
+.mt-18 {
+  margin-top: 1.125rem;
+}
+
+.mt-32 {
+  margin-top: 2rem !important;
+}
+
+.mb-32{
+  margin-bottom: 2rem !important;
+}
+
 .btn-hover:hover,
 .link-hover:hover {
   color: $success;
 }
 
-.material-icons {
+.material-icons,.material-icons-outlined  {
   color: $gray-900;
 
   &:hover {
@@ -62,4 +91,24 @@
 .user-img {
   width: 40px;
   height: 40px;
+}
+
+.gray-400 {
+  color: $gray-400;
+}
+
+.modal-header {
+  .btn-close {
+    background-size: 0.875rem;
+    padding: 0.3125rem;
+  }
+}
+
+.btn-close {
+  background-size: 0.875rem;
+  padding: 0.3125rem;
+}
+
+.font-momo{
+  font-family: "Roboto Mono";
 }
