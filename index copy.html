@@ -103,10 +103,10 @@
   <div class="pt-44 d-flex justify-content-between align-items-center ">
     <div class="dropdown">
       <button type="button" class="btn btn-hover dropdown-toggle fw-bold ps-0 py-0 d-flex align-items-center"
-        id="dropdownMenuAssignment" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+        id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
         All
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuAssignment">
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
         <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
         <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
         <li><a class="dropdown-item" href="#">Final Assignment</a></li>
@@ -191,6 +191,7 @@
         </div>
 
         <ul class="list-unstyled">
+          
           <!--Emily Wang-->
           <li class="card-body d-flex">
             <img src="./assets/images/emilywang.jpeg" class="flex-shrink-0 rounded-circle user-img me-2"
@@ -212,91 +213,51 @@
           </li>
 
           <!-- Andy Chen (You)-->
-          <!-- card-collapse 1 -->
-          <li class="card-collapse collapse show">
-            <div class="card-body d-flex pt-0">
-              <img src="./assets/images/andychen.jpeg" class="flex-shrink-0 rounded-circle user-img me-2"
-                alt="andychen">
-              <div class="card-body-content me-5">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-title">
-                    <p class="mb-0 fw-bold">Andy Chen (You)</p>
-                    <p class="fs-7 pt-1 mb-0 text-muted">13:24 AM (1 hours ago)</p>
-                  </h5>
-                  <div class="card-body-content-icon">
-                    <a href="#" class="bg-white"><span class="material-icons me-4">grade</span></a>
-                    <a href="#" class="bg-white"><span class="material-icons">edit</span></a>
-                  </div>
+          <li class="card-body d-flex pt-0">
+            <img src="./assets/images/andychen.jpeg" class="flex-shrink-0 rounded-circle user-img me-2" alt="andychen">
+            <div class="card-body-content me-5">
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title">
+                  <p class="mb-0 fw-bold">Andy Chen (You)</p>
+                  <p class="fs-7 pt-1 mb-0 text-muted">13:24 AM (1 hours ago)</p>
+                </h5>
+                <div class="card-body-content-icon">
+                  <a href="#" class="bg-white"><span class="material-icons me-4">grade</span></a>
+                  <a href="#" class="bg-white"><span class="material-icons">edit</span></a>
                 </div>
-                <p class="card-text fs-8">Hi David, by default, an image is rendered inline, like a letter so it sits on
-                  the same line that a, b, c and d sit on. There is space below that line for the descenders you find on
-                  letters like g, j, p and q.
-                  <br>
-                  <br>
-                  <br>
-                  You can:
-                  <br>
-                  <br>
-                  <br>
-                  　• adjust the <a href="#" class="bg-light font-momo">vertical-align</a> of the image to position it elsewhere
-                  (e.g. the <a href="#" class="bg-light font-momo">middle</a> ) or
-                  <br>
-                  　• change the <a href="#" class="bg-light font-momo">display</a> so it isn’t inline.
-                </p>
               </div>
-            </div>
-
-          </li>
-
-          <!-- card-collapse 2 ckeditor-->
-          <li class="card-collapse collapse">
-            <div class="card-header d-flex align-items-center py-3 ps-4 gap-4">
-              <div class="dropdown">
-                <button type="button" class="btn btn-hover dropdown-toggle dropdown-font-select fw-bold p-0 d-flex align-items-center"
-                  id="dropdownMenuFontFamily" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
-                  Body Text
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuFontFamily">
-                  <li><a class="dropdown-item" href="#">Arial</a></li>
-                  <li><a class="dropdown-item" href="#">Microsoft JhengHei</a></li>
-                  <li><a class="dropdown-item" href="#">MingLiU</a></li>
-                </ul>
-              </div>
-              <span class="material-icons">format_bold</span>
-              <span class="material-icons">format_italic</span>
-              <span class="material-icons">format_list_bulleted</span>
-              <span class="material-icons">format_list_numbered</span>
-              <span class="material-icons">image</span>
-              <span class="material-icons">attachment</span>
-              <span class="material-icons">code</span>
-            </div>
-            <div class="card-body px-4">
-              <textarea class="ckeditor-text border-0" placeholder="Reply an answer…"></textarea>
-              <div class="text-end">
-                <button type="button" class="btn btn-outline-success fw-bold py-2 px-5 me-3" data-bs-toggle="collapse"
-                  data-bs-target=".card-collapse">Cancel</button>
-                <button type="button" class="btn btn-success fw-bold py-2 px-5">Reply</button>
-              </div>
+              <p class="card-text fs-8">Hi David, by default, an image is rendered inline, like a letter so it sits on
+                the same line that a, b, c and d sit on. There is space below that line for the descenders you find on
+                letters like g, j, p and q.
+                <br>
+                <br>
+                <br>
+                You can:
+                <br>
+                <br>
+                <br>
+                　• adjust the <a href="#" class="bg-light">vertical-align</a> of the image to position it elsewhere
+                (e.g. the <a href="#" class="bg-light">middle</a> ) or
+                <br>
+                　• change the <a href="#" class="bg-light">display</a> so it isn’t inline.
+              </p>
             </div>
           </li>
+
         </ul>
       </div>
 
-      <!-- card-collapse 3 ckeditor-->
-      <div class="card-collapse collapse show">
-        <div class="pt-3 d-flex justify-content-between align-items-center">
-          <div>
-            <a href="#"><span class="material-icons-outlined me-4 ">chevron_left</span></a>
-            <a href="#"><span class="material-icons-outlined ">chevron_right</span></a>
-          </div>
-          <div>
-            <button type="button" class="btn btn-outline-success fw-bold py-2 px-5 me-3">Mark as read</button>
-            <button type="button" class="btn btn-success fw-bold py-2 px-5" data-bs-toggle="collapse"
-              data-bs-target=".card-collapse">Reply</button>
-          </div>
+
+      <div class="pt-3 d-flex justify-content-between align-items-center">
+        <div>
+          <a href="#" ><span class="material-icons-outlined me-4 ">chevron_left</span></a>
+          <a href="#" ><span class="material-icons-outlined ">chevron_right</span></a>
+        </div>
+        <div>
+          <button type="button" class="btn btn-outline-success fw-bold py-2 px-5 me-3">Mark as read</button>
+          <button type="button" class="btn btn-success fw-bold py-2 px-5">Reply</button>
         </div>
       </div>
-
 
     </div>
   </div>

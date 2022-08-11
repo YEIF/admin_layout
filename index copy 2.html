@@ -212,8 +212,8 @@
           </li>
 
           <!-- Andy Chen (You)-->
-          <!-- card-collapse 1 -->
-          <li class="card-collapse collapse show">
+
+          <li class="multi-collapse collapse show" id="multiCollapse1">
             <div class="card-body d-flex pt-0">
               <img src="./assets/images/andychen.jpeg" class="flex-shrink-0 rounded-circle user-img me-2"
                 alt="andychen">
@@ -238,21 +238,21 @@
                   <br>
                   <br>
                   <br>
-                  　• adjust the <a href="#" class="bg-light font-momo">vertical-align</a> of the image to position it elsewhere
-                  (e.g. the <a href="#" class="bg-light font-momo">middle</a> ) or
+                  　• adjust the <a href="#" class="bg-light">vertical-align</a> of the image to position it elsewhere
+                  (e.g. the <a href="#" class="bg-light">middle</a> ) or
                   <br>
-                  　• change the <a href="#" class="bg-light font-momo">display</a> so it isn’t inline.
+                  　• change the <a href="#" class="bg-light">display</a> so it isn’t inline.
                 </p>
               </div>
             </div>
 
           </li>
 
-          <!-- card-collapse 2 ckeditor-->
-          <li class="card-collapse collapse">
+          <!-- assignmentButtombar / multiCollapse2 -->
+          <li class="multi-collapse collapse show" id="multiCollapse2">
             <div class="card-header d-flex align-items-center py-3 ps-4 gap-4">
               <div class="dropdown">
-                <button type="button" class="btn btn-hover dropdown-toggle dropdown-font-select fw-bold p-0 d-flex align-items-center"
+                <button type="button" class="btn btn-hover dropdown-toggle fw-bold ps-0 py-0 d-flex align-items-center"
                   id="dropdownMenuFontFamily" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
                   Body Text
                 </button>
@@ -271,10 +271,12 @@
               <span class="material-icons">code</span>
             </div>
             <div class="card-body px-4">
-              <textarea class="ckeditor-text border-0" placeholder="Reply an answer…"></textarea>
+              <textarea class="editer-text border-0" placeholder="Reply an answer…"></textarea>
               <div class="text-end">
                 <button type="button" class="btn btn-outline-success fw-bold py-2 px-5 me-3" data-bs-toggle="collapse"
-                  data-bs-target=".card-collapse">Cancel</button>
+                  data-bs-target=".multi-collapse"
+                  aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3"
+                  aria-expanded="false">Cancel</button>
                 <button type="button" class="btn btn-success fw-bold py-2 px-5">Reply</button>
               </div>
             </div>
@@ -282,8 +284,7 @@
         </ul>
       </div>
 
-      <!-- card-collapse 3 ckeditor-->
-      <div class="card-collapse collapse show">
+      <div class="multi-collapse collapse show" id="multiCollapse3">
         <div class="pt-3 d-flex justify-content-between align-items-center">
           <div>
             <a href="#"><span class="material-icons-outlined me-4 ">chevron_left</span></a>
@@ -292,10 +293,15 @@
           <div>
             <button type="button" class="btn btn-outline-success fw-bold py-2 px-5 me-3">Mark as read</button>
             <button type="button" class="btn btn-success fw-bold py-2 px-5" data-bs-toggle="collapse"
-              data-bs-target=".card-collapse">Reply</button>
+              data-bs-target=".multi-collapse"
+              aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3"
+              aria-expanded="false">Reply</button>
           </div>
         </div>
       </div>
+
+
+
 
 
     </div>

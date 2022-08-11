@@ -11573,6 +11573,15 @@ a {
   text-decoration: none;
 }
 
+input[type=text], input[type="email"] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+textarea:focus-visible {
+  outline: #fff;
+}
+
 .fs-7 {
   font-size: 0.75rem !important;
 }
@@ -11585,8 +11594,16 @@ a {
   padding-top: 2rem !important;
 }
 
-.pt-6 {
+.pt-44 {
   padding-top: 2.75rem !important;
+}
+
+.pt-6 {
+  padding-top: 3rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 2rem !important;
 }
 
 .ps-5 {
@@ -11595,10 +11612,6 @@ a {
 
 .pe-5 {
   padding-right: 2rem !important;
-}
-
-.me-5 {
-  margin-right: 2rem;
 }
 
 .px-5 {
@@ -11615,16 +11628,40 @@ a {
   padding-bottom: 0.75rem !important;
 }
 
+.me-5 {
+  margin-right: 2rem !important;
+}
+
+.me-6 {
+  margin-right: 3rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 0.75rem !important;
+}
+
+.mt-18 {
+  margin-top: 1.125rem;
+}
+
+.mt-32 {
+  margin-top: 2rem !important;
+}
+
+.mb-32 {
+  margin-bottom: 2rem !important;
+}
+
 .btn-hover:hover,
 .link-hover:hover {
   color: #198754;
 }
 
-.material-icons {
+.material-icons, .material-icons-outlined {
   color: #212529;
 }
 
-.material-icons:hover {
+.material-icons:hover, .material-icons-outlined:hover {
   color: #198754;
 }
 
@@ -11637,6 +11674,24 @@ a {
 .user-img {
   width: 40px;
   height: 40px;
+}
+
+.gray-400 {
+  color: #ced4da;
+}
+
+.modal-header .btn-close {
+  background-size: 0.875rem;
+  padding: 0.3125rem;
+}
+
+.btn-close {
+  background-size: 0.875rem;
+  padding: 0.3125rem;
+}
+
+.font-momo {
+  font-family: "Roboto Mono";
 }
 
 .nav-link {
@@ -11675,7 +11730,6 @@ a {
 
 .dropdown-toggle::after {
   font-size: 24px;
-  color: #198754;
   display: block;
 }
 
@@ -11689,6 +11743,137 @@ a {
 
 .card-body-content-icon a:hover {
   background-color: #fff !important;
+}
+
+.ckeditor-text {
+  width: 100%;
+  height: 200px;
+}
+
+.dropdown-font-select::after {
+  margin-left: 8px;
+}
+
+.table td,
+.table th {
+  padding-top: 19px;
+  padding-bottom: 17px;
+}
+
+.table td:nth-child(1),
+.table th:nth-child(1) {
+  padding-left: 0;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 0;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #212529;
+}
+
+.table-id .material-icons {
+  font-size: 18px;
+  color: #198754;
+}
+
+.table {
+  margin-bottom: 63px;
+}
+
+.page-item.active .page-link {
+  background-color: #198754;
+  color: #fff;
+}
+
+.page-link {
+  padding: 6px 11.5px 7px 11.5px;
+  color: #212529;
+  border: 1px solid #198754;
+}
+
+.page-link:hover {
+  border: 1px solid #198754;
+}
+
+.page-link .material-icons {
+  color: #198754;
+}
+
+#adminAdd h5, #adminAdd .h5,
+#adminEdit h5,
+#adminEdit .h5 {
+  font-size: 1.5rem;
+}
+
+#adminAdd h6, #adminAdd .h6,
+#adminEdit h6,
+#adminEdit .h6 {
+  font-size: 1.25rem;
+}
+
+.form-control[readonly] {
+  background-color: #f8f9fa;
+}
+
+.send-mail-add {
+  background-color: white;
+  border: 1px solid #198754;
+}
+
+.send-mail-add:hover {
+  background-color: #198754;
+  color: white !important;
+}
+
+.send-mail-edit {
+  background-color: white;
+  border: 1px solid #ced4da;
+}
+
+.access-level {
+  background-position: right 1rem center;
+}
+
+.form-check-input {
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+}
+
+.deactivate {
+  background-color: white;
+  border: 1px solid #dc3545;
+}
+
+.deactivate:hover {
+  background-color: #dc3545;
+  color: white !important;
+}
+
+.view-img {
+  width: 141px;
+  height: 141px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.expand_more {
+  display: none;
+}
+
+.expand_less {
+  display: inline-block;
+}
+
+.collapsed .expand_more {
+  display: inline-block;
+}
+
+.collapsed .expand_less {
+  display: none;
 }
 
 /*# sourceMappingURL=all.css.map */
