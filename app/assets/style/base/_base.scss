@@ -16,3 +16,7 @@ input[type=text],input[type="email"]{
 textarea:focus-visible {
   outline: $white;
 }
+
+img{
+  object-fit: cover;
+}
