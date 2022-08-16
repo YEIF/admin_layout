@@ -11582,6 +11582,11 @@ textarea:focus-visible {
   outline: #fff;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .fs-7 {
   font-size: 0.75rem !important;
 }
@@ -11743,6 +11748,15 @@ textarea:focus-visible {
 
 .card-body-content-icon a:hover {
   background-color: #fff !important;
+}
+
+.card-body-content code {
+  color: #198754;
+  font-size: 0.875rem;
+}
+
+.card-body-content code:hover {
+  opacity: 0.6;
 }
 
 .ckeditor-text {
