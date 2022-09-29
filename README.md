@@ -1,9 +1,9 @@
 
-# gulp打包工具  自訂切版 -  後台切版練習
+# gulp打包工具  Bootstrap切版 -  後台切版練習
 
 Demo: https://yeif.github.io/admin_layout/#/
 
-使用 gulp 當開發環境，並自訂SCSS 做切版
+使用 gulp 當開發環境，並使用 Bootstrap5 做切版
 
 使用SCSS 7+1 做資料夾分割
 #
